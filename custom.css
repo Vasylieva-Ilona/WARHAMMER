@@ -86,7 +86,7 @@ table {
 	display: inline-block;
 	vertical-align: bottom;
 	margin: 0px;
-	padding: 0px 12px;
+	padding: 0px 22px;
 	color: rgba(255, 255, 255, 0.8);
 	text-decoration: none;
 }
@@ -198,12 +198,12 @@ table {
 }
 
 
-
 .The_WARHAMMER_World {
-    font-family: 'IM Fell Double Pica SC', serif;
+    font-family: 'IM Fell Double Pica', serif;
     color: rgba(255, 255, 255, 1);
     width: 416px;
-    height: 100px;
+	height: 100px;
+	padding: 283px 78px 91px;
 }
 
 .The_WARHAMMER_World h3 {
@@ -211,5 +211,6 @@ table {
 }
 
 .The_WARHAMMER_World p {
-    font-size: 16px;
+	font-size: 16px;
+	padding-top: 15px;
 }
