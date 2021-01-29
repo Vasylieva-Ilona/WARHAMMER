@@ -102,13 +102,13 @@
 
             <div class="ring">
 
-                    <div class="responsive">
-                        <div><img src="./pictures/dwarf_sl.png" alt=""></div>
-                        <div><img src="./pictures/dw_min.png" alt=""></div>
-                        <div><img src="./pictures/war_priest.png" alt=""></div>
-                        <div><img src="./pictures/organ_gun.png" alt=""></div>
-                        <div><img src="./pictures/1353dwarf.png" alt=""></div>
-                        <div><img src="./pictures/hammer.png" alt=""></div>
+                    <div class="dots">
+                        <div id="dots-1"><img src="./pictures/dwarf_sl.png" alt=""></div>
+                        <div id="dots-2"><img src="./pictures/dw_min.png" alt=""></div>
+                        <div id="dots-3"><img src="./pictures/war_priest.png" alt=""></div>
+                        <div id="dots-4"><img src="./pictures/organ_gun.png" alt=""></div>
+                        <div id="dots-5"><img src="./pictures/1353dwarf.png" alt=""></div>
+                        <div id="dots-6"><img src="./pictures/hammer.png" alt=""></div>
                     </div>
 
             </div>
@@ -122,7 +122,8 @@
         <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 
         <script>
-            $('.responsive').slick({
+            $(document).ready(function(){
+            $('.dots').slick({
                 dots: true,
                 infinite: false,
                 speed: 300,
