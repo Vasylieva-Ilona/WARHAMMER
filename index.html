@@ -53,6 +53,8 @@
                             <li class="nav__link main_link"><a href="#">Gallery</a></li>
                             <li class="nav__link main_link"><a href="#">Calendar of orders</a></li>
                             <li class="nav__link main_link"><a href="#">Contacts</a></li>
+                            <li class="nav__link long_padding"><a href="#"><img src="./pictures/magnifier.jpg" alt=""></a></li>
+                            <li class="nav__link"><a href="#"><img src="./pictures/min_card.jpg" alt=""></a></li>
                             <li class="nav__link main_link"><a href="#">Hi,Tracy</a></li>
                         </ul>
                     </nav>
@@ -82,6 +84,7 @@
                 <div class="slider-container">
                   
                   <div class="slider-holder">
+
                     <div class="item">
                       <div class="media-wrap">
 
@@ -92,11 +95,11 @@
 
                             <p>The world of Warhammer is a battle-scarred and dangerous 
                             place, host to glorious armies and deadly theats without number</p>
-
                         </div>
 
                       </div>
                     </div>
+
                     <div class="item">
                       <div class="media-wrap">
                         <img src="./pictures/banner.png" alt="">
@@ -120,25 +123,79 @@
                   </div>
 
                 </div>
+
               </div>
 
-    </section>
+        </section>
 
-                <section class="container_4">
+        <section class="container_4">
 
                     <div class="Our_Favorites">
 
                         <h3 class="main_text">Our Favorites</h3>
 
                         <div class="dots">
-                            <div id="dots-1"><img src="./pictures/dwarf_sl.png" alt=""></div>
-                            <div id="dots-2"><img src="./pictures/dw_min.png" alt=""></div>
-                            <div id="dots-3"><img src="./pictures/war_priest.png" alt=""></div>
-                            <div id="dots-4"><img src="./pictures/organ_gun.png" alt=""></div>
-                            <div id="dots-5"><img src="./pictures/1353dwarf.png" alt=""></div>
-                            <div id="dots-6"><img src="./pictures/hammer.png" alt=""></div>
+
+                            <div id="dots-1">
+                              <img src="./pictures/dwarf_sl.png" alt="">
+                              <div class="dots_description">
+                                <h5>Dwarf Slayer</h5>
+                                <p>A Dwarf Slayer is the ultimate Dwarf warrior, 
+                                the perfect personification of death and destruction...</p>
+                              </div>
+                            </div>
+
+                            <div id="dots-2">
+                              <img src="./pictures/dw_min.png" alt="">
+                              <div class="dots_description">
+                                <h5>Dwarf Miners</h5>
+                                <p>Dwarf Warriors are the most common front-line 
+                                infantry of the holds, and form the...</p>
+                              </div>
+                            </div>
+
+                            <div id="dots-3">
+                              <img src="./pictures/war_priest.png" alt="">
+                              <div class="dots_description">
+                                <h5>Warrior Priest of Sigmar</h5>
+                                <p>The Warrior Priests of the Church of Sigmar are 
+                                a warrior-sect of Sigmarite Priests whose duty is ...</p>
+                              </div>
+                            </div>
+
+                            <div id="dots-4">
+                              <img src="./pictures/organ_gun.png" alt="">
+                              <div class="dots_description">
+                                <h5>Organ Gun</h5>
+                                <p>The Dwarf Organ Gun, or Organ Cannon as some call it, 
+                                is a strange yet infamous artillery piece created by...</p>
+                              </div>
+                            </div>
+
+                            <div id="dots-5">
+                              <img src="./pictures/1353dwarf.png" alt="">
+                              <div class="dots_description">
+                                <h5>1353dwarf</h5>
+                                <p>Dwarf Warriors are the most common front-line 
+                                infantry of the holds, and form the...</p>
+                              </div>
+                            </div>
+
+                            <div id="dots-6">
+                              <img src="./pictures/hammer.png" alt="">
+                              <div class="dots_description">
+                                <h5>Hammerers</h5>
+                                <p>Dwarf Warriors are the most common front-line 
+                                infantry of the holds, and form the...</p>
+                              </div>
+                            </div>
+
                         </div>
 
+                    </div>
+
+                    <div class="button_top">
+                      <button class="button" type="button" formaction="#">See more</button>
                     </div>
 
                 </section>
@@ -170,7 +227,7 @@ function sliderInit() {
       infinite: true,
       autoplay: true,
       arrows: false,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 767,
@@ -207,7 +264,7 @@ sliderInit();
             $(document).ready(function(){
                 $('.dots').slick({
                     dots: false,
-                    infinite: false,
+                    infinite: true,
                     arrows: false,
                     slidesToShow: 4,
                     slidesToScroll: 1,
