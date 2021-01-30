@@ -249,7 +249,6 @@ table {
 	.total {
 	  margin-left: -5px;
 	}
-  }
   
   .slick-arrow {
 	padding: 0;
@@ -267,11 +266,11 @@ table {
 	cursor: pointer;
 	}
 	  
-	&.slick-next {
+	.slick-next {
 	  right: 0;
 	}
   
-	&.slick-prev {
+	.slick-prev {
 	  right: 55px;
 	}
   
