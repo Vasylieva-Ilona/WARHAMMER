@@ -67,7 +67,7 @@ table {
 }
 
 .under_spot {
-    background-image: url(./pictures/min_gard.png);
+    background-image: url(../pictures/min_gard.png);
     background-repeat: no-repeat;
     height: 82px;
 }
@@ -181,7 +181,7 @@ table {
 .ring {
     width: 100%;
 	min-height: 700px;
-    background-image: url(./pictures/bg_up.png);
+    background-image: url(../pictures/bg_up.png);
     background-color: rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
     background-position: top;
@@ -190,7 +190,7 @@ table {
 
 .background_img {
     max-width: 1060px;
-    background-image: url(./pictures/banner.png);
+    background-image: url(../pictures/banner.png);
     background-position-y: 48px;
     background-repeat: no-repeat;
     height: 477px;
