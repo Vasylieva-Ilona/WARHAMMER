@@ -42,7 +42,7 @@ table {
 }
 
 * {
-    border: none;
+	border: none;
 }
 
 /* font-family: 'IM Fell Double Pica', serif;     --->      IM Fell Double Pica Normal */
@@ -62,9 +62,7 @@ table {
     width: 100%;
 	min-height: 700px;
     background-image: url(../pictures/bg_up.png);
-    background-color: rgba(0, 0, 0, 1);
     background-repeat: no-repeat;
-    background-position: top;
     background-size: cover;
 }
 
@@ -279,7 +277,7 @@ table {
 /*  container_4  */
 
 
-.Our_Favorites {
+.Main_Text {
 	max-width: 1060px;
 	margin: 0 auto;
 }
@@ -316,6 +314,7 @@ table {
 
 .button_top {
 	padding: 50px 0px 0px;
+	margin: 0 auto;
 }
 
 .button {
@@ -347,5 +346,21 @@ table {
 
 
 /*  container_5  */
+
+
+
+.background_of_containers_5_6_7 {
+	width: 100%;
+	min-height: 700px;
+    background-image: url(../pictures/bg_down.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+}
+
+
+.button_8px {
+	padding: 8px 0px 0px;
+}
 
 /*  container_6  */
