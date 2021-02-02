@@ -59,20 +59,21 @@ table {
 
 /* header */
 
+
 .ring {
     width: 100%;
 	min-height: 700px;
-    background-image: url(../pictures/bg_up.png);
+	background-image: url(../pictures/bg_up.png);	
     background-repeat: no-repeat;
-    background-size: cover;
+	background-size: cover;
 }
 
 
 .header {
 	width: 100%;
 	padding-top: 10px;
-    padding-bottom: 13px;
-    background-color: rgba(0, 0, 0, 0.8);	
+	padding-bottom: 13px;
+	background-color: rgba(0, 0, 0, 1);
 }
 
 .under_spot {
@@ -204,7 +205,7 @@ table {
 
 
 .container_3 { 
-
+	background-color: rgba(0, 0, 0, 0.8);
     margin: 0 auto;
 }
 
@@ -245,6 +246,7 @@ table {
 	word-spacing: 2px;
 	position: absolute;
 	margin: 0 auto;
+	left: 47%;
 }
   
 .active {
@@ -277,6 +279,9 @@ table {
 
 /*  container_4  */
 
+.container_4 {
+	background-color: rgba(0, 0, 0, 0.8);
+}
 
 .Main_Text {
 	max-width: 1060px;
@@ -314,8 +319,11 @@ table {
 }
 
 .button_top {
+	width: 100%;
 	padding: 50px 0px 0px;
 	margin: 0 auto;
+	position: relative;
+	left: 40%;
 }
 
 .button {
@@ -348,12 +356,14 @@ table {
 
 /*  container_5  */
 
-
+.container_5 {
+	background-color: rgba(0, 0, 0, 0.8);	
+}
 
 .background_of_containers_5_6_7 {
 	width: 100%;
 	min-height: 700px;
-    background-image: url(../pictures/bg_down.png);
+	background-image: url(../pictures/bg_down.png);
     background-repeat: no-repeat;
     background-position: top;
     background-size: cover;
@@ -365,3 +375,37 @@ table {
 }
 
 /*  container_6  */
+
+.container_6 {
+	background-color: rgba(0, 0, 0, 0.8);	
+}
+
+.slider-container {
+	position: relative;
+	width: 100%;
+	padding-top: 48px;
+	margin: 0 auto;
+}
+
+.slider-container .dots {
+	outline: none;
+	padding: 50px 0;
+	position: relative;
+}
+  
+.slides-numbers {
+	font-family: 'Prata', serif;
+	color: rgba(255, 255, 255, 1);
+	display: none;
+	font-size: 12px;
+	font-weight: 400;
+	word-spacing: 2px;
+	left: 47%;
+	position: absolute;
+}
+  
+.active {
+	color: rgba(255, 255, 255, 1);
+	font-size: 16px;
+	
+}
